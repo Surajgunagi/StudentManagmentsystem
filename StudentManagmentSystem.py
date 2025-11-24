@@ -7,7 +7,7 @@ courses = set() # Set to store all unique courses
 def add_student():
     student_id = input("Enter Student ID: ").strip()
     if student_id in students:
-        print("⚠️ Student ID already exists!")
+        print(" Student ID already exists!")
         return
     
     name = input("Enter Student Name: ").strip()
@@ -135,4 +135,5 @@ def main():
             print(" Invalid choice. Please try again.")
 
 if __name__ == "__main__":
+
     main()
